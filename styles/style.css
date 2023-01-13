@@ -96,33 +96,43 @@ hr {
 }
 
 /* courses styles */
-
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
 .course .course-banner img {
     width: 224px;
     height: 104px;
 }
-.course-info{
+
+.course-detail {
+    font-size: 20px;
+}
+
+.course-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.fa-star{
+
+.fa-star {
     font-size: 12px;
 }
-.fa-star.filled{
+
+.fa-star.filled {
     color: #FFC014;
 }
-.fa-star.empty{
+
+.fa-star.empty {
     color: #AEAEAE;
     opacity: 0.25
 }
-.course-duration{
+
+.course-duration {
     background: #FFE4E8;
     border-radius: 14.6913px;
     font-weight: 600;
-font-size: 13px;
-color: #FF4A60;
-}
-.fa-clock {
-
+    font-size: 13px;
+    color: #FF4A60;
 }
