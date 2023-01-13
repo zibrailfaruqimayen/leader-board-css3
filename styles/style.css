@@ -3,33 +3,38 @@
 
 
 /* common style */
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
 }
-.container{
+
+.container {
     background: #FFFFFF;
     width: 870px;
-    padding: 30px ;
+    padding: 30px;
     border-radius: 5px;
 }
-hr{
+
+hr {
     border: 1px solid #D1D1D1;
 }
 
 /* top players style */
-.top-players{
+.top-players {
     margin-bottom: 30px;
 }
-.section-title{
+
+.section-title {
     color: #562EFF;
     font-size: 24px;
     margin-top: 3px;
 }
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,7 +50,32 @@ hr{
     width: 56px;
     height: 56px;
 }
-.player-name{
+
+.player-name {
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* top blogs styles */
+.blog{
+    display: flex;
+}
+.blogs .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
 }
